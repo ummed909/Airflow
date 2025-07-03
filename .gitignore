@@ -1,0 +1,32 @@
+# Bytecode files
+__pycache__/
+*.pyc
+
+# Airflow logs and metadata
+logs/
+airflow.db
+airflow-webserver.pid
+unittests.cfg
+sqlite.db
+
+# Airflow config (optional — only if you recreate it elsewhere)
+airflow.cfg
+webserver_config.py
+
+# Environment files
+.env
+*.env
+
+# Virtual environment
+airflow_env/
+.venv/
+venv/
+
+# System/IDE files
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Jupyter notebooks checkpoints (if any)
+.ipynb_checkpoints/
